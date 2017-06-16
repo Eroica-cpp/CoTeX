@@ -4,8 +4,8 @@ A collection of LaTeX templates for different purposes.
 
 Collection
 ----
-* Curriculum Citae
-* Lab Report
+* [Curriculum Vitae](https://github.com/Eroica-cpp/LaTeX-Templates/tree/master/CV)
+* [Lab Report](https://github.com/Eroica-cpp/LaTeX-Templates/tree/master/report)
 * Thesis
 
 Licenses

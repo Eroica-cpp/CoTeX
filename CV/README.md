@@ -8,8 +8,7 @@
  pdflatex CV.tex
  ```
 
- Demo
+ [Demo](https://github.com/Eroica-cpp/LaTeX-Templates/blob/master/CV/CV.pdf)
  ----
- [CV.pdf](https://github.com/Eroica-cpp/LaTeX-Templates/blob/master/CV/CV.pdf)
  ![sheldon.png](https://github.com/Eroica-cpp/LaTeX-Templates/blob/master/CV/sheldon.png)
 

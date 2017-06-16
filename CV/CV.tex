@@ -1,0 +1,193 @@
+% LaTeX Curriculum Vitae Template
+%
+% Source: https://github.com/Eroica-cpp/LaTeX-Templates
+% Reference: http://jblevins.org/projects/cv-template/
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{geometry}
+\usepackage{fontawesome}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Sheldon Cooper Ph.D.}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+% \def\footerlink{http://jblevins.org/projects/cv-template/}
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+% a4paper,% other options: a3paper, a5paper, etc
+letterpaper,
+% left=1.5cm,
+% right=1.5cm,
+% top=1cm,
+% bottom=1cm,
+vmargin=2.5cm,
+hmargin=1cm
+% use vmargin=2cm to make vertical margins equal to 2cm.
+% us  hmargin=3cm to make horizontal margins equal to 3cm.
+% use margin=3cm to make all margins  equal to 3cm.
+}
+
+% \usepackage{titlesec}
+
+% \titlespacing*{\section}{0pt}{15.5ex plus 1ex minus .2ex}{14.3ex plus .2ex}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+\begin{center}
+{\huge \name} \\
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+\vspace{0.0in}
+\href{https://www.google.com/search?q=google+map+Pasadena+CA}{\tt \faMapMarker \ 2311 N. Los Robles Avenue \#4A, Pasadena, CA 91101} \
+$\cdot$ \ \faPhone \ (167) 262-1777 \
+$\cdot$ \ \href{mailto:sheldon@caltech.edu}{\tt \faEnvelope \ sheldon@caltech.edu}
+% $\cdot$ \ \href{https://eroicacpp.com}{\tt \faLink \ https://homepage.com} \
+% $\cdot$ \ \href{https://github.com/eroica-cpp}{\tt \faGithub \ Sheldon}
+\rule{0.9\paperwidth}{0.4pt}
+\end{center}
+
+\section*{Education}
+
+\begin{itemize}
+  % \setlength\itemsep{0em}
+
+  \item[$\bullet$] \textbf{Ph.D. in Theoretical Physics}, California Institute of Technology \hfill May, 2001 \\
+  GPA: 4.00; Dissertation: Black-hole Entropy in Loop Quantum Gravity \hfill Pasadena, CA
+
+  \item[$\bullet$] \textbf{Ph.D. in Theoretical Physics}, University of Texas, Austin \hfill May, 1996 \\
+  GPA: 4.00; Dissertation: Electroweak Baryogenesis and Low Energy Supersymmetry \hfill Austin, TX
+
+  \item[$\bullet$] \textbf{B.S. in Physics}, University of Texas, Austin \hfill May, 1994 \\
+  GPA: 3.99 \hfill Austin, TX
+
+\end{itemize}
+
+\section*{Work Experience}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+
+  \item[$\bullet$] \textbf{ California Institute of Technology, Theoretical High Energy Physics } \hfill 2001 - Present \\
+  {\em Postdoctoral Scholar} \hfill Pasadena, CA
+  \begin{itemize}
+      \item[$\cdot$] Research new theories of hadronization in baryons
+      \item[$\cdot$] Research magnetic monopoles in condensed-matter systems by modeling spin ice
+  \end{itemize}
+
+  \item[$\bullet$] \textbf{ Heidelberg Institute for Theoretical Studies, Theoretical Astrophysics } \hfill 1996 - 1997 \\
+  {\em Visiting Scholar} \hfill Heidelberg, Germany
+  \begin{itemize}
+      \item[$\cdot$] Lectured on supersymmetry in fermions
+      \item[$\cdot$] Applied for research grants to experimentally show asymptotic freedom in quarks and gluons
+  \end{itemize}
+
+\end{itemize}
+
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item A General Mathematical Theory of Depreciation, 1929, {\it Journal
+    of The American Statistical Association} 20, 340--353.
+\item Differential Equations Subject to Error, 1927, {\it Journal of The
+    American Statistical Association}.
+\item Applications of the Theory of Error to the Interpretation of
+  Trends (with H. Working), 1929, {\it Journal of the American
+    Statistical Association}.
+\end{itemize}
+
+\subsection*{Proceedings}
+
+\begin{itemize}
+\item A generalized T-Test and measure of multivariate dispersion,
+  Proc. Second Berkeley Symposium of Mathematical Statistics and
+  Probability, 1951.
+\end{itemize}
+
+\section*{Skills}
+
+\begin{itemize}
+    \setlength\itemsep{0em}
+    \item[$\bullet$] Programming: Python, C/C++, Lua, Java, JavaScript, PHP, Bash, Fortran, R, MATLAB, SQL, \LaTeX
+    \item[$\bullet$] Database: MySQL, PostgreSQL, MongoDB
+    \item[$\bullet$] Operating System: Linux, Unix, Windows
+    \item[$\bullet$] Tools: Spark, Hadoop, Hive, Nutch/Solr, OpenMP/MPI, Cordova, Git, Vim
+\end{itemize}
+
+\section*{Awards \& Honors}
+
+\begin{itemize}
+  \setlength\itemsep{0em}
+  \item[$\bullet$] Caltech Chancellor's Award for Science \hfill 2003
+  \item[$\bullet$] Stevenson Award \hfill 1994
+  \item[$\bullet$] National Scholarship (Top 50 out of 20,000+; University-wide) \hfill 1994
+  \item[$\bullet$] Top Class Academic Scholarship (Top 1\%; College-wide) \hfill 1992, 1993, 1994
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    % Last updated: December 1, 2014 \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

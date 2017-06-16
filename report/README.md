@@ -1,5 +1,4 @@
-Project Report Template in Shenzhen University
-====
+A project report template in Shenzhen University
 
 Usage
 ----
